@@ -94,7 +94,7 @@ a:hover{
     //.onLabelClick(d => {var el = document.getElementById("myimg"); var els = $d.img})
     (elem);
      
-  fetch('https://localhost/phpdemo/jso.json') // make the request to fetch https://raw.githubusercontent.com/eesur/country-codes-lat-long/e20f140202afbb65addc13cad120302db26f119a/country-codes-lat-long-alpha3.json
+  fetch('jso.json') // make the request to fetch https://raw.githubusercontent.com/eesur/country-codes-lat-long/e20f140202afbb65addc13cad120302db26f119a/country-codes-lat-long-alpha3.json
 
   // fetch('https://raw.githubusercontent.com/eesur/country-codes-lat-long/e20f140202afbb65addc13cad120302db26f119a/country-codes-lat-long-alpha3.json')
     .then(r => r.json()) //then get the returned json request header if and when the request value returns true
